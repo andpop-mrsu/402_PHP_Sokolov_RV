@@ -1,0 +1,29 @@
+{
+    "name": "nevall-von-goodem/gcd",
+    "type": "project",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.7"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0"
+    },
+    "license": "MIT",
+    "bin": ["bin/GCD.php"],
+    "autoload": {
+        "files": [
+            "src/Controller.php",
+            "src/View.php",
+            "src/Model.php",
+            "src/Db.php"
+        ],
+        "psr-4": {
+            "NevallVonGoodem\\Gcd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nevall von Goodem",
+            "email": "sokoloff.roman.ru@mail.ru"
+        }
+    ]
+}
