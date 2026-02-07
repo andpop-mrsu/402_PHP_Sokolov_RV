@@ -156,3 +156,7 @@ vendor/bin/phpcs --standard=PSR12 src bin
 
 **Nevall von Goodem**  
 GitHub: `Nevall-von-Goodem`
+
+--- 
+
+## Проект на Packagist [https://packagist.org/packages/nevall-von-goodem/gcd](https://packagist.org/packages/nevall-von-goodem/gcd) 
